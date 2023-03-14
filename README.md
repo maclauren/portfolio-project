@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## Available Scripts
+## Initial scaffolding of a portfolio site from scratch using React.
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+  <details>
+    <summary>Table of Contents</summary>
+    <ol>
+          <li><a href="#about-the-project">About The Project</a></li>
+          <li><a href="#deployment">Deployment / Code Repository</a></li>
+          <li><a href="#screenshot">Screenshot</a></li>
+          <li><a href="#user-story-&-acceptance-criteria">Acceptance Criteria</a></li>
+          <li><a href="#usage">Usage</a></li>
+          <li><a href="#questions">Questions</a></li>
+          <li><a href="#license">License</a></li>
+        </ol>
+  </details>
 
-### `npm start`
+  <!-- About the Project -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Deployment / Code Repository
 
-### `npm test`
+[Live Deployment](https://maclauren.github.io/portfolio-project/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Repository](https://github.com/maclauren/portfolio-project)
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project Page:
+<img src="![Alt text](public/assets/portfolio-screenshot.png)" style="max-width: 800px;">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Acceptance Criteria
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Required Components
+At a minimum, your portfolio must render these 6 components:
 
-### `npm run eject`
+App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Header
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Home page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Projects page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Project (on Projects page)
 
-## Learn More
+Contact page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Component Content and Requirements
+Each of the following components must follow these guidelines:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+App:
 
-### Code Splitting
+Must be your top-level component and render all necessary child components
+Header:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Must be rendered across every page component of the site
 
-### Analyzing the Bundle Size
+Must contain a Navbar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Home page:
 
-### Making a Progressive Web App
+This should be a welcome landing page that contains:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Your Name
 
-### Advanced Configuration
+A headshot of you (or an avatar)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Your brand statement
 
-### Deployment
+Some indication that this is your portfolio site
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Projects page:
 
-### `npm run build` fails to minify
+Must render six instances of the Project component dynamically
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Be sure to store your project details data in a JSON file and import it into your project
+
+Project:
+
+Must be a reusable component that ingests JSON data as props and renders a single instance for each project
+
+Must utilize Router props to properly render the right project based on user selection
+
+Must render the following info:
+
+Project title
+
+Link to the deployed version
+
+Link to the GitHub repository
+
+GIF or screenshot of the deployed application
+
+Contact page:
+
+Must include contact information:
+
+Email address
+
+Link to a PDF version of your CV
+
+Link to your GitHub profile
+
+Link to your LinkedIn page
+
+Must have a contact form for handling events
+
+### Usage
+
+You should have React, Node.js, Jest and Inquirer installed.
+
+### Questions
+
+If you have any questions, please [email me](mailto:laurenmacpherson@hotmail.co.uk?subject=team-profile-generator)
+
+You can find more of my work at https://github.com/maclauren
+
+### License
+
+MIT License
+
+Copyright (c) 2023 maclauren

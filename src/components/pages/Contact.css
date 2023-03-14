@@ -1,0 +1,103 @@
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contact-info a {
+    color: #5f9ea0;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #5f9ea0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #4a7d82;
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        padding: 30px 10px;
+    }
+
+    .contact h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+}

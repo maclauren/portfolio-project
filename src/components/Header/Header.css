@@ -1,0 +1,15 @@
+.header {
+  background-color: #669966;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 0.5rem;
+  }
+}

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import './Home.css';
 import Card from '../Card/card';
 
@@ -17,13 +16,3 @@ const Home = () => {
 };
 
 export default Home;
-=======
-
-const Home = () => {
-    return <h1>I am the Home page</h1>
-}
-
-
-
-export default Home
->>>>>>> refs/remotes/origin/main

@@ -13,7 +13,7 @@ function App() {
 
 {/* multiple dynamic routes go inside the Routes component */}
     <Routes>
-      <Route path='/' Component={Home} />
+      <Route exact path='/' Component={Home} />
       <Route path='/projects' Component={Projects} />
       <Route path='/contact' Component={Contact} />
       {/* 404 route always goes at the bottom of the routes list */}

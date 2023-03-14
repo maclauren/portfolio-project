@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/maclauren/portfolio-project/static/css/main.9b72c187.css",
-    "main.js": "/maclauren/portfolio-project/static/js/main.79c9bdb3.js",
+    "main.js": "/maclauren/portfolio-project/static/js/main.b40dde93.js",
     "index.html": "/maclauren/portfolio-project/index.html",
     "main.9b72c187.css.map": "/maclauren/portfolio-project/static/css/main.9b72c187.css.map",
-    "main.79c9bdb3.js.map": "/maclauren/portfolio-project/static/js/main.79c9bdb3.js.map"
+    "main.b40dde93.js.map": "/maclauren/portfolio-project/static/js/main.b40dde93.js.map"
   },
   "entrypoints": [
     "static/css/main.9b72c187.css",
-    "static/js/main.79c9bdb3.js"
+    "static/js/main.b40dde93.js"
   ]
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './Contact.css';
 
@@ -25,3 +26,11 @@ const Contact = () => {
 };
 
 export default Contact;
+=======
+
+const Contact = () => {
+    return <h1>Contact</h1>
+}
+
+export default Contact
+>>>>>>> refs/remotes/origin/main

@@ -1,11 +1,18 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './App.css';
+<<<<<<< HEAD
 import Projects from './components/pages/Projects';
+=======
+import About from './components/pages/Projects';
+>>>>>>> refs/remotes/origin/main
 import Contact from './components/pages/Contact';
 import NotFound from './components/pages/404';
 import Header from './components/Header/Header';
 import Home from './components/pages/Home';
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
 
 function App() {
   return (
